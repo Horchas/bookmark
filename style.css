@@ -428,12 +428,17 @@ footer {
 
   .hamburger {
     display: block;
+    margin-right: 10px;
   }
 
   /* Header */
   header {
     padding: 20px;
     justify-content: space-between;
+  }
+
+  .close{
+    margin-right: 10px;
   }
 
   header img {
@@ -479,7 +484,7 @@ footer {
   }
 
   .container p {
-    font-size: 12px;
+    font-size: 16px;
     margin-left: 0;
   }
 
@@ -508,7 +513,7 @@ footer {
   }
 
   .contain p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .hrr ul {
@@ -581,8 +586,12 @@ footer {
     font-size: 15px;
   }
 
+.dropp hr{
+    display: none;
+  }
+
   .dropp img{
-    margin-right: 10px;
+    margin-right: 30px;
   }
 
   .dropp ul li {
